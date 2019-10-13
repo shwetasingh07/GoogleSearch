@@ -19,7 +19,7 @@ public class ExtentManager {
 
 	// Create an extent report instance
 	public static ExtentReports createInstance() {
-		htmlReporter = new ExtentHtmlReporter("\\test-output\\Advanced-reports\\Extent-Report.html");
+		htmlReporter = new ExtentHtmlReporter("test-output/Advanced-reports/Extent-Report.html");
 		htmlReporter.config().setDocumentTitle("Google Search Test Automation Report");
 		htmlReporter.config().setReportName("Search Test Report");
 		htmlReporter.config().setTheme(Theme.DARK);
