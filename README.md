@@ -23,15 +23,15 @@ $ git clone https://github.com/shwetasingh07/GoogleSearch.git
 Or download a ZIP of master and expand the contents in a folder on your system
 
 ## How to Run Tests
-## Maven Command
+# Maven Command
 1. Open Command Prompt
 2. Navigate to the project folder
 3. Type "mvn clean test" OR "mvn -DBROWSER="chrome" -DSEARCH_TERM="Rockall Technologies" clean test" to run all tests 
-## Run Parameters
+# Pass Run Parameters from mvn command
 1. The tests can be run in multiple browers by using run time maven parameter -DBROWSER. Support is there for chrome, firefox,ie
 2. User can give any search term as input to the test by using run time mvn parameter -DSEARCH_TERM="Accenture Global Services Dublin"
 
-## Using INTELLIJ OR ECLIPSE
+## Using IDE (Intellij)
 1. Open IDE
 2. Navigate from File --> New --> Project from Existing Sources
 3. Select pom.xml file from Folder location where repo was cloned 
@@ -39,7 +39,7 @@ Or download a ZIP of master and expand the contents in a folder on your system
 5. Once Project is opened in Intellij
 6. Right Click on pom.xml --> maven --> reimport
 7. Right Click on "TestNG.xml" and Run
-## Run Parameters
+# Pass Run Parameters from LocalConfig
 1. Go to file LOCALCONFIG.JAVA in project folder
 2. Run time paramaters can be edited and passed from here
 ```
